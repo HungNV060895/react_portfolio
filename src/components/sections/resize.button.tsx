@@ -1,5 +1,11 @@
+interface ResizeButtonProps {
+    btnText: string;
+    btnIcons: React.ReactNode;
+    btnStyle?: React.CSSProperties;
+}
 
-const ResizeButton = (props) => {
+
+const ResizeButton = (props: ResizeButtonProps) => {
     const { btnText, btnIcons, btnStyle } = props;
 
     return (
