@@ -24,31 +24,17 @@ const Introduction = () => {
                     <br />
                     <p>
                         {t("introSection.heading1")}
+                        <i>
+                            <b className='text-pink-100'> HTML, CSS, {t("introSection.and")} Javascript. </b>
+                        </i>
                         <br />
                         <br />{t("introSection.heading2")}
-                        <i>
-                            <b className='text-pink-100'> Java {t("introSection.and")} Javascript. </b>
-                        </i>
+                        
                         <br />
                         <br />
                         {t("introSection.heading3")} &nbsp;
-                        <i>
-                            <b className='text-pink-100'>
-                                {t("introSection.heading4")}
-                            </b>
-                        </i>
-                        <br />
-                        <br />
-                        {t("introSection.heading5")}
-                        <i><b className='text-pink-100'>&nbsp;Java Spring</b> </i>
-                        {t("introSection.and")}
-                        <i>
-                            <b className='text-pink-100'>
-                                {" "}
-                                Node.js
-                            </b>
-                        </i>
-
+                        <br/><br/>
+                        {t("introSection.heading4")}
                     </p>
                 </Col>
                 <Col md={3} className='d-md-block d-none'>

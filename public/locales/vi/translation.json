@@ -13,11 +13,10 @@
     "introSection": {
         "about": "Giới thiệu",
         "and": "và",
-        "heading1": "Yêu đơn phương lập trình và tôi tin rằng mình đã học hỏi được ít nhiều điều gì đó. 🤷‍♂️",
-        "heading2": "Tôi nắm vững các ngôn ngữ huyền thoại như là",
-        "heading3": "Lĩnh vực quan tâm của tôi là",
-        "heading4": "xây dựng các công nghệ web mới và các sản phẩm liên quan",
-        "heading5": "Bất cứ khi nào có thể, tôi cũng áp dụng niềm đam mê phát triển sản phẩm của mình với"
+        "heading1": "Frontend Developer với hơn 5 năm kinh nghiệm xây dựng giao diện web chuẩn pixel-perfect, tối ưu responsive trên nhiều thiết bị. Có nền tảng vững chắc về ",
+        "heading2": "Đang tập trung phát triển chuyên sâu ReactJS và TypeScript để xây dựng các web application hiện đại.",
+        "heading3": "Đam mê tạo ra UI/UX chất lượng cao, tối ưu hiệu năng và viết code sạch, dễ bảo trì.",
+        "heading4": "Mong muốn tham gia các dự án sử dụng React, đóng góp vào việc nâng cao chất lượng UI/UX và tối ưu hiệu năng sản phẩm."
     },
     "experience": {
         "title": "Kinh nghiệm làm việc"

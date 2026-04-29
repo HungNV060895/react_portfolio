@@ -158,6 +158,10 @@ body {
     height: auto !important;
 }
 
+.card-img-top{
+    object-fit: cover !important;
+}
+
 // .blog-card-view {
 //     background-color: transparent !important;
 //     box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;

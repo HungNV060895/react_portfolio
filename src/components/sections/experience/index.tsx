@@ -30,6 +30,7 @@ const Experience = () => {
                 <div className="d-flex flex-column gap-5">
                     {
                         EXPERIENCES.map(experience => (
+                            console.log("Experience title:", experience),
                             <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
                                 <div className="p-3 relative">
                                     {theme === "dark" &&

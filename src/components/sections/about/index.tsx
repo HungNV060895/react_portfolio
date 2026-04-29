@@ -90,9 +90,9 @@ const About = () => {
                 <Col md={6} xs={12} className=" mt-md-5 mt-3">
                     <h3 className="mb-md-5 mb-2">FIND ME ON </h3>
                     <SocialMedia
-                        youtube={APP_DATA.YOUTUBE_URL}
+                        github={APP_DATA.GITHUB_URL}
                         facebook={APP_DATA.FACEBOOK_URL}
-                        tiktok={APP_DATA.TIKTOK_URL}
+                        phone={APP_DATA.PHONE_NUMBER}
                         gmail={APP_DATA.GMAIL_URL}
                     />
                 </Col >
