@@ -1,13 +1,13 @@
 import { Col, Row } from "react-bootstrap";
-import AnimationLottie from "../../share/animation-lottie";
-import codingJSON from '../../../assets/lottie/coding.json';
-import { DEVELOPMENT_LOTTIE } from "../../../assets/lottie/string/development";
-import { CONTACT_LOTTIE } from "../../../assets/lottie/string/contact";
+import AnimationLottie from "@share/animation-lottie";
+import codingJSON from '@assets/lottie/coding.json';
+import { DEVELOPMENT_LOTTIE } from "@assets/lottie/string/development";
+import { CONTACT_LOTTIE } from "@assets/lottie/string/contact";
 
-import GlowCard from "../../share/glow-card";
+import GlowCard from "@share/glow-card";
 import { FaGraduationCap } from "react-icons/fa6";
 import Divider from "../divider";
-import { APP_DATA } from "../../../helpers/data.ts";
+import { APP_DATA } from "@helpers/data.ts";
 import SocialMedia from "../social.media";
 
 const About = () => {
@@ -93,7 +93,7 @@ const About = () => {
                         youtube={APP_DATA.YOUTUBE_URL}
                         facebook={APP_DATA.FACEBOOK_URL}
                         tiktok={APP_DATA.TIKTOK_URL}
-                        udemy={APP_DATA.UDEMY_URL}
+                        gmail={APP_DATA.GMAIL_URL}
                     />
                 </Col >
                 <Col md={6} xs={12} className="d-flex flex-column align-items-center justify-content-center">

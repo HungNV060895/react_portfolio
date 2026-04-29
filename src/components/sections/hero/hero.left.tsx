@@ -16,6 +16,15 @@ const HeroLeft = (props: IProps) => {
 
     const { t } = useTranslation();
 
+    const handleDownloadCV = () => {
+        // Logic to download CV
+        const link = document.createElement('a');
+        link.href = 'https://drive.google.com/file/d/1Not2pgEns6An5xHOO0R0sZjqfb0du9B-/view?usp=sharing';
+        link.download = 'https://drive.google.com/file/d/1Not2pgEns6An5xHOO0R0sZjqfb0du9B-/view?usp=sharing';
+        document.body.appendChild(link);
+        window.open(link.href, '_blank');
+        document.body.removeChild(link);
+    }
     return (
         <div className='hero-left'>
             <h3>
@@ -49,7 +58,7 @@ const HeroLeft = (props: IProps) => {
                     youtube={APP_DATA.YOUTUBE_URL}
                     facebook={APP_DATA.FACEBOOK_URL}
                     tiktok={APP_DATA.TIKTOK_URL}
-                    udemy={APP_DATA.UDEMY_URL}
+                    gmail={APP_DATA.GMAIL_URL}
                 />
             </div>
             <div className="d-md-flex d-none gap-4">
@@ -64,6 +73,7 @@ const HeroLeft = (props: IProps) => {
                     }}
                 />
                 <ResizeButton
+                    onClick={handleDownloadCV}
                     btnText={t("heroSection.cv")}
                     btnIcons={<MdFileDownload />}
                 />

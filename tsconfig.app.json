@@ -31,7 +31,8 @@
       "@styles/*": ["./src/styles/*"],
       "@utils/*": ["./src/utils/*"],
       "@helpers/*": ["./src/helpers/*"],
-      "@sections/*": ["./src/components/sections/*"]
+      "@sections/*": ["./src/components/sections/*"],
+      "@share/*": ["./src/components/share/*"]
     }
   },
   "include": ["src"]
