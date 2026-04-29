@@ -1,5 +1,5 @@
-import { SKILLS_DATA } from "../../../helpers/data";
-import { skillsImage } from "../../../helpers/skill.image";
+import { SKILLS_DATA } from "@helpers/data.ts";
+import { skillsImage } from "@helpers/skill.image.ts";
 import Marquee from "react-fast-marquee";
 import './skill.scss';
 import { Col, Row } from "react-bootstrap";
@@ -35,7 +35,6 @@ const Skill = () => {
                                 />
                                 <p className="skill-name">{skill}</p>
                             </div>
-
                         </div>
                     ))}
                 </Marquee>

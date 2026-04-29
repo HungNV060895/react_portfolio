@@ -7,7 +7,7 @@ import { CONTACT_LOTTIE } from "../../../assets/lottie/string/contact";
 import GlowCard from "../../share/glow-card";
 import { FaGraduationCap } from "react-icons/fa6";
 import Divider from "../divider";
-import { APP_DATA } from "../../../helpers/data";
+import { APP_DATA } from "../../../helpers/data.ts";
 import SocialMedia from "../social.media";
 
 const About = () => {

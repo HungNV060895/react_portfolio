@@ -16,12 +16,12 @@ export const EXPERIENCES = [
     {
         id: 1,
         title: {
-            vi: "Lập Trình Viên",
-            en: "Fullstack Developer"
+            vi: "Lập Trình Viên HTML/CSS/JS",
+            en: "HTML/CSS/JS Developer"
         },
         company: {
             vi: "Công ty ABCXYZ Ltd.",
-            en: "ABCXYZ Ltd."
+            en: "Tất Thành Software Ltd."
         },
         duration: {
             vi: "Jan 2024 - Hiện tại",
@@ -31,8 +31,8 @@ export const EXPERIENCES = [
     {
         id: 2,
         title: {
-            vi: "Lập Trình Viên",
-            en: "Fullstack Developer"
+            vi: "Lập Trình Viên PHP",
+            en: "PHP Developer"
         },
 
         company: {
