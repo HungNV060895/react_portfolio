@@ -14,12 +14,8 @@ export const AppContextProvider = (props: { children: React.ReactNode }) => {
     });
 
     useEffect(() => {
-        const mode = localStorage.getItem("theme");
-        if (mode) {
-            setTheme(mode);
-            document.documentElement.setAttribute('data-bs-theme', mode);
-        }
-    }, [])
+        document.documentElement.setAttribute('data-bs-theme', theme);
+    }, [theme])
 
     return (
         <AppContext.Provider value={{

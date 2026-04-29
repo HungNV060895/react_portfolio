@@ -114,7 +114,7 @@ export const PROJECTS = [
             en: "A simple portfolio app built with React and TypeScript, showcasing my skills and projects."
         },
         githubLink: "https://github.com/HungNV060895/react_portfolio",
-        demoLink: "https://reactjs-gamma-two.vercel.app/portfolio"
+        demoLink: "https://react-portfolio-sepia-phi.vercel.app/"
     }
 ]
 

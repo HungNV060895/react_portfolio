@@ -16,7 +16,6 @@ function AppHeader() {
 
     const handleMode = (mode: 'dark' |'light') => {
         localStorage.setItem("theme", mode);
-        document.documentElement.setAttribute('data-bs-theme', mode);
         setTheme(mode);
     }
 
