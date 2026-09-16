@@ -1,35 +1,65 @@
-# React TypeScript Portfolio (JavaScript) FINAL PROJECT
-Đây là source code final (JavaScript) cho series React TypeScript Portfolio (Vite) của tác giả Hỏi Dân IT (Eric)
+# React TypeScript Portfolio (Final Project)
 
-### Môi trường chạy dự án: Node.js v20.14.0
-https://nodejs.org/download/release/v20.14.0/
+This repository contains the **Final Project** for the React TypeScript Portfolio series, built with **Vite**.  
+The project demonstrates modern frontend development practices using **ReactJS, TypeScript, and JavaScript (ES6+)**.
 
-## Về tác giả
-Mọi thông tin về Tác giả Hỏi Dân IT, các bạn có thể tìm kiếm tại đây:
+**Environment:** Node.js v20.14.0  
+👉 [Download Node.js v20.14.0](https://nodejs.org/download/release/v20.14.0/)
 
-Website chính thức: https://hoidanit.vn/
+---
 
-Youtube “Hỏi Dân IT” : https://www.youtube.com/@hoidanit
+## 🚀 Features
+- Responsive UI with React and TypeScript  
+- Component-based architecture using React Hooks  
+- Routing and state management  
+- Integration with external APIs  
+- Optimized build process using Vite  
+- AI tools integration (ChatGPT, Claude, Copilot) for productivity and automation  
 
-Tiktok “Hỏi Dân IT” :  https://www.tiktok.com/@hoidanit
+---
 
-Fanpage “Hỏi Dân IT” : https://www.facebook.com/askITwithERIC/
+## 🧩 Installation (Development Mode)
 
-Udemy Hỏi Dân IT: https://www.udemy.com/user/eric-7039/
+```bash
+# Clone the repository
+git clone <your-repo-url>
 
-===
+# Install dependencies
+npm install
 
-Các bước cài đặt: (chế độ development)
-1. clone code
-2. cài đặt thư viện: npm i
-3. Update file .env.development (nếu cần thiết)
-4. Chạy dự án: npm run dev
+# Update environment variables if needed
+# .env.development
 
-===
+# Run the project
+npm run dev
+```
+---
 
-Cách chạy tại chế độ production:
-1. clone code
-2. cài đặt thư viện: npm i
-3. Update file .env.production (nếu cần thiết)
-4. Build dự án: npm run build
-5. Chạy dự án: npm run preview
+## 🏗️ Production Setup
+
+```bash
+# Clone the repository
+git clone <your-repo-url>
+
+# Install dependencies
+npm install
+
+# Update environment variables if needed
+# .env.production
+
+# Build the project
+npm run build
+
+# Preview production build
+npm run preview
+```
+---
+
+## 🛠️ Tech Stack
+| Category | Technologies |
+| --- | --- |
+| **Frontend** | ReactJS, TypeScript, JavaScript (ES6+) |
+| **Styling** | CSS3, Bootstrap |
+| **Tools** | Git, Chrome DevTools, Figma, Photoshop |
+| **Backend** | PHP, MySQL |
+| **AI Tools** | ChatGPT, Claude, Copilot |
