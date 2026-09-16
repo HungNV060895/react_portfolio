@@ -32,10 +32,11 @@ npm install
 
 # Run the project
 npm run dev
-
+```
 ---
 
 ## 🏗️ Production Setup
+
 ```bash
 # Clone the repository
 git clone <your-repo-url>
@@ -51,5 +52,14 @@ npm run build
 
 # Preview production build
 npm run preview
+```
+---
 
-
+## 🛠️ Tech Stack
+| Category | Technologies |
+| --- | --- |
+| **Frontend** | ReactJS, TypeScript, JavaScript (ES6+) |
+| **Styling** | CSS3, Bootstrap |
+| **Tools** | Git, Chrome DevTools, Figma, Photoshop |
+| **Backend** | PHP, MySQL |
+| **AI Tools** | ChatGPT, Claude, Copilot |
